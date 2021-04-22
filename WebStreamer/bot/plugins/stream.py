@@ -15,7 +15,7 @@ async def media_receive_handler(c: Client, m: Message):
                                 Var.PORT,
                                 log_msg.message_id)
     await m.reply_text(
-        text="`{}` 📥v isit @mirrorupdatesnnews".format(stream_link),
+        text="`{}` 📥 by @mirrorupdatesnnews".format(stream_link),
   
 
         quote=True
