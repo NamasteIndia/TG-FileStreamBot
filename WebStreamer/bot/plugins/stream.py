@@ -16,7 +16,7 @@ async def media_receive_handler(c: Client, m: Message):
                                 log_msg.message_id)
     await m.reply_text(
         text="`{}`".format(stream_link),
-        text="A program by @mirrorupdatesnnews"
-        text="Join for unlimited TD, and much more stuffs"
+        text="A program by @mirrorupdatesnnews",
+        text="Join for unlimited TD, and much more stuffs",
         quote=True
     )
